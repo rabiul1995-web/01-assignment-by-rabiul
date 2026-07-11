@@ -3,6 +3,7 @@
           margin: 0;
           padding: 0;
           font-family: Inter;
+          box-sizing: border-box;
 }
 
 .container {
@@ -22,6 +23,7 @@
           font-size: 18px;
           cursor: pointer;
 }
+
 .common-btn:hover {
           border: 2px solid #5d82e7;
 }
@@ -115,7 +117,7 @@ ul li a {
 
 /* BANNER SECTION END */
 
-/*  MEET FRAME SECTION START  */
+/*  MEET CARD SECTION START  */
 .meet-card-parent {
 
           margin-bottom: 100px;
@@ -152,16 +154,77 @@ ul li a {
           box-shadow: 0 15px 35px rgba(0, 0, 0, .12);
 }
 
-.card h5,h3,p {
+.card h5,
+h3,
+p {
           margin: 8px;
 }
 
-.card span{
+.card span {
           color: #2563eb;
 }
-.card p{
+
+.card p {
           color: #575757;
           font-size: medium;
 }
 
-/* MEET FRAME SECTION END */
+/* MEET CARD SECTION END */
+
+/* SPOT CARD SECTION START */
+.spot-card-parent {
+          margin: 80px auto;
+          padding: 20px;
+          text-align: center;
+
+}
+
+.spot-card-content h2 {
+          font-size: 42px;
+          margin-bottom: 10px;
+}
+
+.spot-card-content p {
+          color: #666;
+          margin-bottom: 50px;
+}
+
+.spot-card-container {
+          display: flex;
+          gap: 25px;
+          justify-content: center;
+          /* flex-wrap: wrap; */
+}
+
+.card {
+          width: 340px;
+          background: #fff;
+          border: 1px solid #ddd;
+          border-radius: 12px;
+          padding: 30px;
+          text-align: left;
+          transition: .3s;
+}
+
+.card ul {
+          display: inline-block;
+          list-style: disc;
+
+}
+
+.card-pro {
+          width: 340px;
+          background: #0d1b2a;
+          border: 1px solid #ddd;
+          border-radius: 12px;
+          padding: 30px;
+          text-align: left;
+          transition: .3s;
+}
+.card-pro ul{
+          display: inline-block;
+          list-style: disc;
+          color: #e5e7eb;
+
+}
+/* SPOT CARD SECTION END */

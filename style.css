@@ -156,14 +156,17 @@ ul li a {
     text-align: center;
     font-size: 42px;
     margin: 50px 0 50px 0;
+    padding-top: 30px;
     font-weight: 700;
 }
 
 .meet-card {
     display: grid;
+    margin-left: 55px;
+    padding-bottom: 50px;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    width: 100%;
+    width: 90%;
 }
 
 .card {
@@ -251,6 +254,9 @@ p {
     font-size: medium;
 
 }
+.card-pro li::marker{
+    color: #1d4ed8;
+}
 
 .card-get-pro {
     width: 340px;
@@ -277,6 +283,9 @@ p {
 .card-get-pro ul li {
     font-size: medium;
 
+}
+.card-get-pro li::marker{
+    color: #1d4ed8;
 }
 
 .card-pro-content-black span {

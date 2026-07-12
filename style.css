@@ -369,3 +369,22 @@ p {
     margin-top: 5px;
 }
 /* FOOTER SECTION END */
+
+/* footer line */
+.footer-line{
+    width: 1050px;
+    height: 50px;
+    border: none;
+    border-top: 1px solid #2a3345;
+    margin-bottom: 40px;
+    margin-left: 22px;
+}
+.copyright{
+    text-align: center;
+}
+.copyright p{
+    color: #8d95a5;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}

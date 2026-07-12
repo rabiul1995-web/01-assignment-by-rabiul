@@ -39,10 +39,12 @@
     font-size: 16px;
     cursor: pointer;
 }
+
 .black-card-btn:hover {
     border: 2px solid #5d82e7;
 }
-.outline-btn{
+
+.outline-btn {
     display: block;
     margin: 20px auto 0;
     background-color: #fff;
@@ -53,6 +55,7 @@
     font-size: 16px;
     cursor: pointer;
 }
+
 .outline-btn:hover {
     border: 3px solid #5d82e7;
 }
@@ -254,7 +257,8 @@ p {
     font-size: medium;
 
 }
-.card-pro li::marker{
+
+.card-pro li::marker {
     color: #1d4ed8;
 }
 
@@ -284,7 +288,8 @@ p {
     font-size: medium;
 
 }
-.card-get-pro li::marker{
+
+.card-get-pro li::marker {
     color: #1d4ed8;
 }
 
@@ -309,3 +314,11 @@ p {
 }
 
 /* SPOT CARD SECTION END */
+
+
+/* FOOTER SECTION */
+
+
+
+
+/* FOOTER SECTION END */

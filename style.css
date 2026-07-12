@@ -380,13 +380,13 @@ p {
 
 /* footer line */
 .footer-line {
-    width: 1095px;
+    width: 1035px;
     height: 50px;
     background-color: #000000;
     border: none;
     border-top: 1px solid #2a3345;
     margin-bottom: 40px;
-    margin-left: auto;
+    margin-left: 1px;
 }
 
 .copyright {

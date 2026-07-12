@@ -318,7 +318,54 @@ p {
 
 /* FOOTER SECTION */
 
+.footer-parent {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer-list ul {
+    display: inline-block;
+    margin-left: 10px;
+    list-style: disc;
+}
+
+.footer-child{
+    margin-left: 50px;
+    width: 800px;
+}
 
 
+.footer-input {
+    margin-left: 10px;
+    /* gap: 20px; */
+}
 
+.footer-input-btn{
+    display: flex;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    margin-top: 6px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-input-btn:hover {
+    border: 1px solid #05057e;
+    background-color: #ffffffFF;
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+.footer-ipt{
+    background-color: #eff2f7;
+    border: 1px solid #1d4ed8;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 5px;
+}
 /* FOOTER SECTION END */

@@ -421,4 +421,73 @@ p {
     color:#666;
     margin-bottom:50px;
 }
+
+.days{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin-bottom:25px;
+}
+
+.day{
+    text-align:center;
+    cursor:pointer;
+    padding-bottom:10px;
+}
+.day h4{
+    font-size:20px;
+    color:#333;
+}
+
+.day span{
+    color:#777;
+}
+.day:hover{
+    background-color: white;
+    padding: 2px 14px;
+    border-bottom:3px solid #47b8ff;
+    border-radius: 6px;
+}
+.active{
+    border-bottom:3px solid #47b8ff;
+}
+
+.schedule-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+    margin-top:40px;
+}
+.schedule-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+.schedule-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.12);
+}
+.time{
+
+    color:#7a42ff;
+
+    font-weight:600;
+
+    display:block;
+
+    margin-bottom:18px;
+}
 /* SPECIAL/SCHEDULE SECTION START  */

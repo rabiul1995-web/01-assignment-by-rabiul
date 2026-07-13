@@ -101,10 +101,13 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-size:auto; */
-    /* background-position: center;
-          background-repeat: no-repeat; */
+    height: 722px;
+    padding-bottom: 25px;
     text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* img{
@@ -379,14 +382,15 @@ p {
 /* FOOTER SECTION END */
 
 /* footer line */
-.footer-line {
-    width: 1035px;
-    height: 50px;
+.footer {
     background-color: #000000;
+    padding: 40px 60px;
+}
+
+.footer-line {
     border: none;
     border-top: 1px solid #2a3345;
     margin-bottom: 40px;
-    margin-left: 1px;
 }
 
 .copyright {

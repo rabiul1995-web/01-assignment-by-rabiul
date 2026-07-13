@@ -399,3 +399,26 @@ p {
     font-weight: 400;
     padding-bottom: 10px;
 }
+
+
+
+/* SPECIAL/SCHEDULE SECTION START */
+.section-title{
+    text-align:center;
+}
+.section-title h2{
+    font-size:40px;
+    color:#1f2d5a;
+}
+.line{
+    width:1040px;
+    height:4px;
+    background:#47b8ff;
+    margin:15px auto;
+    border-radius:10px;
+}
+.section-title p{
+    color:#666;
+    margin-bottom:50px;
+}
+/* SPECIAL/SCHEDULE SECTION START  */
